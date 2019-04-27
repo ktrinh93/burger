@@ -1,0 +1,40 @@
+body {
+    background-color: orange
+}
+
+img {
+    height: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.burgers {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    padding: 0px 2px;
+    margin: 3px;
+}
+
+input[type=submit] {
+    float: left;
+    margin-left: 3px;
+}
+
+.centerBlock {
+    display: block;
+    margin: auto;
+}
+
+input[type=text] {
+    display: block;
+    margin: auto;
+    float: left;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
